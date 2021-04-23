@@ -10,10 +10,10 @@ equivalen a 0 días y 20 horas.*/
 using namespace std;
 
 int main (){
-	int cantidad_horas, dias, horas;
+    int cantidad_horas, dias, horas;
 	cout << "Ingresar la cantidad de horas: ";
 	cin >> cantidad_horas;
-	dias = (cantidad_horas % 168) / 24;
+	dias =(float) (cantidad_horas % 168) / 24;
 	horas = cantidad_horas % 24;
 	cout << "Dias: " << dias << endl;
 	cout << "Horas: " << horas << endl;

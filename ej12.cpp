@@ -17,9 +17,10 @@ int main (){
 	int cantidad_huevos, importe, suelto,caja, total;
 	cout << "Ingresar la cantidad de huevos: ";
 	cin >> cantidad_huevos;
+
 	caja = 12;
-	suelto = cantidad de huevos - 12;
-	total = caja + suelto;
+	suelto = 1;
+	importe =
 
 	return 0;
 }
